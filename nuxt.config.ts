@@ -6,6 +6,7 @@ import { resolve } from 'path'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
+
   modules: [
     '@vue-macros/nuxt',
     '@pinia/nuxt',
@@ -13,9 +14,11 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
   ],
+
   alias: {
     '@': resolve(__dirname, './src'),
   },
+
   runtimeConfig: {
     public: {
       COS_BUCKETNAME: process.env.COS_BUCKETNAME,
@@ -25,12 +28,15 @@ export default defineNuxtConfig({
       SERVERURL: process.env.SERVERURL,
     },
   },
+
   nitro: { output: { dir: process.env.OutputDir } },
   watch: ['./tailwind.config.js'],
+
   colorMode: {
     preference: 'light',
     classSuffix: '',
   },
+
   vite: {
     vue: {
       script: {
@@ -66,4 +72,6 @@ export default defineNuxtConfig({
       }),
     ],
   },
+
+  compatibilityDate: '2024-10-12',
 })

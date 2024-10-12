@@ -10,34 +10,34 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint \"{stores,util}/**/*.ts\" \"{components,layouts,pages}/**/*.vue\" --fix",
-    "swagger": "npx -y swagger-typescript-api -p ../../BackEnd/docs/swagger.json -o ./api --unwrap-response-data --disable-throw-on-error -t ./api/templates -n index.ts --module-name-index 0"
+    "swagger": "npx -y swagger-typescript-api -p http://localhost:3000/swagger-json -o ./api --unwrap-response-data --disable-throw-on-error -t ./api/templates -n index.ts --module-name-index 0"
   },
   "devDependencies": {
     "@nuxt/devtools": "1.0.0",
-    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/color-mode": "^3.5.1",
     "@nuxtjs/i18n": "8.0.0-beta.12",
-    "@nuxtjs/tailwindcss": "^6.8.0",
-    "@types/node": "^20.8.7",
-    "@typescript-eslint/eslint-plugin": "^6.16.0",
-    "@typescript-eslint/parser": "^6.16.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/node": "^20.16.11",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
     "@vue/eslint-config-typescript": "^12.0.0",
     "cross-env": "^7.0.3",
-    "eslint": "^8.51.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.1",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-vue": "7.0.0-beta.4",
     "less": "^4.2.0",
-    "nuxt": "^3.8.0",
-    "nuxt-simple-robots": "^3.1.6",
-    "nuxt-simple-sitemap": "^3.4.0",
-    "unplugin-auto-import": "^0.16.6",
+    "nuxt": "^3.13.2",
+    "nuxt-simple-robots": "^3.1.10",
+    "nuxt-simple-sitemap": "^3.4.1",
+    "unplugin-auto-import": "^0.16.7",
     "unplugin-vue-components": "^0.25.2",
-    "vue-eslint-parser": "^9.3.2"
+    "vue-eslint-parser": "^9.4.3"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.5.1",
-    "@vue-macros/nuxt": "^1.9.3",
-    "tdesign-icons-vue-next": "^0.2.2",
-    "tdesign-vue-next": "^1.8.0"
+    "@pinia/nuxt": "^0.5.5",
+    "@vue-macros/nuxt": "^1.12.3",
+    "tdesign-icons-vue-next": "^0.2.6",
+    "tdesign-vue-next": "^1.10.2"
   }
 }
