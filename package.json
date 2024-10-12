@@ -37,7 +37,7 @@
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
     "@vue-macros/nuxt": "^1.9.3",
-    "tdesign-icons-vue-next": "^0.2.2",
+    "tdesign-icons-vue-next": "^0.2.6",
     "tdesign-vue-next": "^1.8.0"
   }
 }
