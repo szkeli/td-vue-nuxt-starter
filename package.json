@@ -35,7 +35,7 @@
     "vue-eslint-parser": "^9.3.2"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.5.1",
+    "@pinia/nuxt": "^0.5.5",
     "@vue-macros/nuxt": "^1.9.3",
     "tdesign-icons-vue-next": "^0.2.2",
     "tdesign-vue-next": "^1.8.0"
