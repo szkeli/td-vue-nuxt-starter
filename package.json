@@ -30,7 +30,7 @@
     "nuxt": "^3.13.2",
     "nuxt-simple-robots": "^3.1.10",
     "nuxt-simple-sitemap": "^3.4.1",
-    "unplugin-auto-import": "^0.16.7",
+    "unplugin-auto-import": "^0.18.3",
     "unplugin-vue-components": "^0.25.2",
     "vue-eslint-parser": "^9.4.3"
   },

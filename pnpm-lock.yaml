@@ -73,8 +73,8 @@ importers:
         specifier: ^3.4.1
         version: 3.4.1(@nuxt/devtools@1.6.0(rollup@4.18.0)(vite@5.4.8(@types/node@22.9.0)(less@4.2.0)(terser@5.31.1))(vue@3.5.12(typescript@5.5.2))(webpack-sources@3.2.3))(@unocss/webpack@0.61.0(rollup@4.18.0)(webpack@5.92.1(esbuild@0.21.5)))(@vue/compiler-core@3.5.12)(magicast@0.3.5)(nuxt@3.13.2(@opentelemetry/api@1.9.0)(@parcel/watcher@2.4.1)(@types/node@22.9.0)(encoding@0.1.13)(eslint@8.57.1)(ioredis@5.4.1)(less@4.2.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.18.0)(terser@5.31.1)(typescript@5.5.2)(vite@5.4.8(@types/node@22.9.0)(less@4.2.0)(terser@5.31.1))(webpack-sources@3.2.3))(postcss@8.4.47)(rollup@4.18.0)(sortablejs@1.15.2)(vite@5.4.8(@types/node@22.9.0)(less@4.2.0)(terser@5.31.1))(vue@3.5.12(typescript@5.5.2))(webpack-sources@3.2.3)(webpack@5.92.1(esbuild@0.21.5))
       unplugin-auto-import:
-        specifier: ^0.16.7
-        version: 0.16.7(@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@4.18.0)(webpack-sources@3.2.3))(@vueuse/core@10.11.0(vue@3.5.12(typescript@5.5.2)))(rollup@4.18.0)(webpack-sources@3.2.3)
+        specifier: ^0.18.3
+        version: 0.18.3(@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@4.18.0)(webpack-sources@3.2.3))(@vueuse/core@10.11.0(vue@3.5.12(typescript@5.5.2)))(rollup@4.18.0)(webpack-sources@3.2.3)
       unplugin-vue-components:
         specifier: ^0.25.2
         version: 0.25.2(@babel/parser@7.25.8)(@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@4.18.0)(webpack-sources@3.2.3))(rollup@4.18.0)(vue@3.5.12(typescript@5.5.2))
@@ -4927,9 +4927,6 @@ packages:
   unimport@3.13.1:
     resolution: {integrity: sha512-nNrVzcs93yrZQOW77qnyOVHtb68LegvhYFwxFMfuuWScmwQmyVCG/NBuN8tYsaGzgQUVYv34E/af+Cc9u4og4A==}
 
-  unimport@3.7.2:
-    resolution: {integrity: sha512-91mxcZTadgXyj3lFWmrGT8GyoRHWuE5fqPOjg5RVtF6vj+OfM5G6WCzXjuYtSgELE5ggB34RY4oiCSEP8I3AHw==}
-
   universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
@@ -4946,8 +4943,8 @@ packages:
       vite:
         optional: true
 
-  unplugin-auto-import@0.16.7:
-    resolution: {integrity: sha512-w7XmnRlchq6YUFJVFGSvG1T/6j8GrdYN6Em9Wf0Ye+HXgD/22kont+WnuCAA0UaUoxtuvRR1u/mXKy63g/hfqQ==}
+  unplugin-auto-import@0.18.3:
+    resolution: {integrity: sha512-q3FUtGQjYA2e+kb1WumyiQMjHM27MrTQ05QfVwtLRVhyYe+KF6TblBYaEX9L6Z0EibsqaXAiW+RFfkcQpfaXzg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': ^3.2.2
@@ -7466,7 +7463,7 @@ snapshots:
   '@vue-macros/common@1.14.0(rollup@4.18.0)(vue@3.5.12(typescript@5.5.2))':
     dependencies:
       '@babel/types': 7.25.8
-      '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
+      '@rollup/pluginutils': 5.1.2(rollup@4.18.0)
       '@vue/compiler-sfc': 3.5.12
       ast-kit: 1.2.1
       local-pkg: 0.5.0
@@ -9278,7 +9275,7 @@ snapshots:
 
   impound@0.1.0(rollup@4.18.0)(webpack-sources@3.2.3):
     dependencies:
-      '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
+      '@rollup/pluginutils': 5.1.2(rollup@4.18.0)
       mlly: 1.7.2
       pathe: 1.1.2
       unenv: 1.10.0
@@ -9771,7 +9768,7 @@ snapshots:
       '@rollup/plugin-node-resolve': 15.2.3(rollup@4.18.0)
       '@rollup/plugin-replace': 5.0.7(rollup@4.18.0)
       '@rollup/plugin-terser': 0.4.4(rollup@4.18.0)
-      '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
+      '@rollup/pluginutils': 5.1.2(rollup@4.18.0)
       '@types/http-proxy': 1.17.14
       '@vercel/nft': 0.26.5(encoding@0.1.13)
       archiver: 7.0.1
@@ -11214,25 +11211,6 @@ snapshots:
       - rollup
       - webpack-sources
 
-  unimport@3.7.2(rollup@4.18.0)(webpack-sources@3.2.3):
-    dependencies:
-      '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
-      acorn: 8.12.0
-      escape-string-regexp: 5.0.0
-      estree-walker: 3.0.3
-      fast-glob: 3.3.2
-      local-pkg: 0.5.0
-      magic-string: 0.30.12
-      mlly: 1.7.2
-      pathe: 1.1.2
-      pkg-types: 1.2.1
-      scule: 1.3.0
-      strip-literal: 2.1.0
-      unplugin: 1.14.1(webpack-sources@3.2.3)
-    transitivePeerDependencies:
-      - rollup
-      - webpack-sources
-
   universalify@2.0.1: {}
 
   unocss@0.61.0(@unocss/webpack@0.61.0(rollup@4.18.0)(webpack@5.92.1(esbuild@0.21.5)))(postcss@8.4.47)(rollup@4.18.0)(vite@5.4.8(@types/node@22.9.0)(less@4.2.0)(terser@5.31.1)):
@@ -11265,16 +11243,16 @@ snapshots:
       - rollup
       - supports-color
 
-  unplugin-auto-import@0.16.7(@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@4.18.0)(webpack-sources@3.2.3))(@vueuse/core@10.11.0(vue@3.5.12(typescript@5.5.2)))(rollup@4.18.0)(webpack-sources@3.2.3):
+  unplugin-auto-import@0.18.3(@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@4.18.0)(webpack-sources@3.2.3))(@vueuse/core@10.11.0(vue@3.5.12(typescript@5.5.2)))(rollup@4.18.0)(webpack-sources@3.2.3):
     dependencies:
       '@antfu/utils': 0.7.10
-      '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
+      '@rollup/pluginutils': 5.1.2(rollup@4.18.0)
       fast-glob: 3.3.2
       local-pkg: 0.5.0
-      magic-string: 0.30.10
+      magic-string: 0.30.12
       minimatch: 9.0.5
-      unimport: 3.7.2(rollup@4.18.0)(webpack-sources@3.2.3)
-      unplugin: 1.10.1
+      unimport: 3.13.1(rollup@4.18.0)(webpack-sources@3.2.3)
+      unplugin: 1.14.1(webpack-sources@3.2.3)
     optionalDependencies:
       '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.18.0)(webpack-sources@3.2.3)
       '@vueuse/core': 10.11.0(vue@3.5.12(typescript@5.5.2))
