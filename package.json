@@ -13,7 +13,7 @@
     "swagger": "npx -y swagger-typescript-api -p http://localhost:3000/swagger-json -o ./api --unwrap-response-data --disable-throw-on-error -t ./api/templates -n index.ts --module-name-index 0"
   },
   "devDependencies": {
-    "@nuxt/devtools": "1.3.9",
+    "@nuxt/devtools": "1.6.0",
     "@nuxtjs/color-mode": "^3.5.1",
     "@nuxtjs/i18n": "9.0.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
