@@ -15,8 +15,8 @@ importers:
         specifier: ^1.12.3
         version: 1.12.4(@vueuse/core@10.11.0(vue@3.5.12(typescript@5.5.2)))(esbuild@0.21.5)(magicast@0.3.5)(nuxt@3.13.2(@opentelemetry/api@1.9.0)(@parcel/watcher@2.4.1)(@types/node@22.9.0)(encoding@0.1.13)(eslint@8.57.1)(ioredis@5.4.1)(less@4.2.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.18.0)(terser@5.31.1)(typescript@5.5.2)(vite@5.4.8(@types/node@22.9.0)(less@4.2.0)(terser@5.31.1))(webpack-sources@3.2.3))(rollup@4.18.0)(typescript@5.5.2)(vite@5.4.8(@types/node@22.9.0)(less@4.2.0)(terser@5.31.1))(vue@3.5.12(typescript@5.5.2))(webpack-sources@3.2.3)(webpack@5.92.1(esbuild@0.21.5))
       tdesign-icons-vue-next:
-        specifier: ^0.2.6
-        version: 0.2.6(vue@3.5.12(typescript@5.5.2))
+        specifier: ^0.3.0
+        version: 0.3.0(vue@3.5.12(typescript@5.5.2))
       tdesign-vue-next:
         specifier: ^1.10.2
         version: 1.10.2(vue@3.5.12(typescript@5.5.2))
@@ -4762,6 +4762,11 @@ packages:
 
   tdesign-icons-vue-next@0.2.6:
     resolution: {integrity: sha512-Se/3N6AAfbpEyJfuBUCMcBl26FCfwUYCf9OwEFp1dw0HhMeCd6LENoZx0o43/V69NpcUGp+0Ya+xVuNKiP8M+Q==}
+    peerDependencies:
+      vue: ^3.0.0
+
+  tdesign-icons-vue-next@0.3.0:
+    resolution: {integrity: sha512-vW/iM7byli9V+vAT3Pshpd/kOmHY/wnp008FHM/t+nLPnHl+ZPGvlh0LJhDlE4meIKfieAio3XELahAkKz96rg==}
     peerDependencies:
       vue: ^3.0.0
 
@@ -11020,6 +11025,11 @@ snapshots:
       yallist: 4.0.0
 
   tdesign-icons-vue-next@0.2.6(vue@3.5.12(typescript@5.5.2)):
+    dependencies:
+      '@babel/runtime': 7.24.7
+      vue: 3.5.12(typescript@5.5.2)
+
+  tdesign-icons-vue-next@0.3.0(vue@3.5.12(typescript@5.5.2)):
     dependencies:
       '@babel/runtime': 7.24.7
       vue: 3.5.12(typescript@5.5.2)
